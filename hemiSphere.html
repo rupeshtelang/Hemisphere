@@ -1,0 +1,130 @@
+ <!DOCTYPE html >
+<html>
+
+<head>
+	<title>Rupesh Telang : Sample</title>
+	<style type="text/css">
+	body{
+		background : #224466;
+		color:white;
+	}
+	div{
+		background: white;
+		color:black;
+		border-radius:75px;
+		height: 150px;
+		width: 150px;
+		margin:2px;		
+		float:left;
+		line-height:150px;
+		text-align:center;
+		font-size:2em;
+		
+		border-bottom:0px solid black;
+		border-top:0px solid #224466;
+		 
+		transition-property:border-bottom,border-top ,  height, line-height;
+		transition-duration: .5s;
+		-webkit-transition-property:border-bottom,border-top ,  height, line-height;
+		-webkit-transition-duration: .5s;
+		-moz-transition-property:border-bottom,border-top ,  height, line-height;
+		-moz-transition-duration: .5s;
+		-o-transition-property:border-bottom,border-top ,  height, line-height;
+		-o-transition-duration: .5s;
+		transition:width 2s, border-bottom 2s, border-top 2s, line-height 2s;
+	}
+	div{
+		counter-increment:balls;
+	}
+	div:after{
+		content:counter(balls);
+	}
+
+	div:nth-child(2n){
+		transition-property:border-bottom,border-top ,  height, line-height;
+		transition-duration: .5s;
+		-webkit-transition-property:border-bottom,border-top ,  height, line-height;
+		-webkit-transition-duration: .5s;
+		-moz-transition-property:border-bottom,border-top ,  height, line-height;
+		-moz-transition-duration: .5s;
+		-o-transition-property:border-bottom,border-top ,  height, line-height;
+		-o-transition-duration: .5s;
+		transition:width 2s, border-bottom 2s, border-top 2s, line-height 2s;
+		
+		background: black;
+		color: white;
+		border-bottom:0px solid #224466;
+		border-top:0px solid white;
+	}
+
+	div:hover{
+		
+		transition-property:border-bottom,border-top ,  height, line-height;
+		transition-duration: .5s;
+		-webkit-transition-property:border-bottom,border-top ,  height, line-height;
+		-webkit-transition-duration: .5s;
+		-moz-transition-property:border-bottom,border-top ,  height, line-height;
+		-moz-transition-duration: .5s;
+		-o-transition-property:border-bottom,border-top ,  height, line-height;
+		-o-transition-duration: .5s;
+		transition:width 2s, border-bottom 2s, border-top 2s, line-height 2s;
+
+		width:150px;
+		height:50px;
+		line-height:50px;
+		border-bottom:50px solid black;
+		border-top:50px solid #224466;
+	}
+	div:nth-child(2n):hover{
+		
+		transition-property:border-bottom,border-top ,  height, line-height;
+		transition-duration: .5s;
+		-webkit-transition-property:border-bottom,border-top ,  height, line-height;
+		-webkit-transition-duration: .5s;
+		-moz-transition-property:border-bottom,border-top ,  height, line-height;
+		-moz-transition-duration: .5s;
+		-o-transition-property:border-bottom,border-top ,  height, line-height;
+		-o-transition-duration: .5s;
+		transition:width 2s, border-bottom 2s, border-top 2s, line-height 2s;
+		
+		width:150px;
+		height:50px;
+		line-height:50px;
+		border-bottom:50px solid #224466;
+		border-top:50px solid white;
+	}
+
+	section{
+		display:block;
+	}
+	aside{
+		margin:0 auto;
+		height:800px;
+		width:800px;
+	}
+	a{
+	color:white;
+	text-decoration:none;
+	font-size:2em;
+	}
+	</style>
+		
+</head>
+
+<body>
+	<header>
+		<h1>Hemisphere with CSS numbering & Alternate Styling</h1>
+		<p>By <a href="http://twitter.com/rupeshtelang">@rupeshtelang </a></p>
+	</header>
+
+	<section>
+		<aside>
+			<div>			</div>
+			<div>			</div>
+			<div>			</div>
+			<div>			</div>
+			<div>			</div>
+		</aside>
+	</section>
+</body>
+</html>
